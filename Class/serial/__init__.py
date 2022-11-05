@@ -1,0 +1,3 @@
+SERIAL_PORT_NAME = "/dev/ttyACM0"
+BAUDRATE = 9600
+TIMEOUT = None

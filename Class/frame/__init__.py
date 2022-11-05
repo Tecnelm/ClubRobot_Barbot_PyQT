@@ -1,0 +1,47 @@
+from enum import Enum
+
+GAME_DROP_SPEED = 12
+
+BACKGROUND_URL = "data/background/"
+DROP_URL = "data/drop/"
+CLOUD_URL ="data/effect/cloud.png"
+PEPITE_URL = "data/element/pepite.png"
+URL_RULES="data/rules"
+GAME_NB_POSITION = 6
+GAME_MAX_DROP = 2
+
+
+SCREEN_WIDTH = 1280
+SCREEN_HEIGHT = 1024
+
+DROP_WIDTH = 256
+DROP_HEIGHT = 256
+
+
+GAME_UPDATE_SCREEN_TIMER = 20
+GAME_UPDATE_DROP_TIMER = 20
+GAME_UPDATE_BACKGROUND_TIMER = 20
+GAME_MAX_TIME = 20000
+GAME_NB_LIFE = 3
+
+GAME_BLUR_INGAME = 0
+GAME_BLUR_IDDLE = 10
+
+POLICE_RULES_SIZE = 40
+
+MAX_SCORE = 10
+MAX_VALUE_TIME= 3500
+
+
+
+IP_WLED="10.3.141.4"
+
+
+
+class game_state(Enum):
+    GAME_INIT = 0
+    GAME_IDDLE = 1
+    GAME_RUN = 2
+    GAME_END = 3
+    GAME_STOP = 4
+    GAME_COUNT = 5
